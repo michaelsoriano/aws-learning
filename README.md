@@ -37,5 +37,3 @@ optional:
 --recursive
 
 --exclude <pattern>
-
-
