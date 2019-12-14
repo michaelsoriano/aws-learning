@@ -20,3 +20,22 @@ All Images copyright Ryan Lewis
 
 All Code under MIT license
 
+# Named Profiles
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+
+using
+
+--profile devbox
+
+### to upload to s3
+
+aws s3 cp <localpath> s3://<bucketname>/<folder>  --profile devbox
+
+optional: 
+
+--recursive
+
+--exclude <pattern>
+
+
